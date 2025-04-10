@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>Καλάθι Αγορών - Gadgetiki</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/cart.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/logo.png" alt="Gadgetiki logo"></a>
+        <h1>Καλάθι Αγορών</h1>
+        <div style="position:absolute; top:20px; right:20px;">
+            <a href="cart.html" style="color: white; text-decoration: none;">
+                🛒 Καλάθι (<span id="cart-count">0</span>)
+            </a>
+        </div>
+    </header>
+    <main>
+        <h2>Τα προϊόντα στο καλάθι σας:</h2>
+        <ul id="cart-items"></ul>
+        <button id="clear-cart" style="margin-top:20px;">Άδειασμα Καλαθιού</button>
+    </main>
+    <footer>
+        &copy; 2025 Gadgetiki. All rights reserved.
+    </footer>
+</body>
+</html>
